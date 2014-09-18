@@ -10,6 +10,7 @@ A curated list of amazingly awesome open source Chef resources.
   * [Podcasts](#podcasts)
   * [Chef handlers](#chef-handlers)
   * [Add-ons](#add-ons)
+  * [Books](#books)
 
 
 ## Cookbooks
@@ -70,3 +71,14 @@ A curated list of amazingly awesome open source Chef resources.
 
 * [Chef Rewind](https://github.com/bryanwb/chef-rewind) - Monkeypatch chef to edit existing resources in place
 * [Chef Sugar](https://github.com/sethvargo/chef-sugar) - Chef Sugar is a Gem & Chef Recipe that includes series of helpful sugar of the Chef core and other resources to make a cleaner, more lean recipe DSL, enforce DRY principles, and make writing Chef recipes an awesome experience!
+
+## Books
+
+* [Chef Infrastructure Automation Cookbook](https://www.packtpub.com/networking-and-servers/chef-infrastructure-automation-cookbook) - For systems administrators and developers this book could revolutionize your cloud and server infrastructure through automation. Packed with real world situations and practical recipes, it’s a dazzling insight into Chef.
+* [Customizing Chef](http://shop.oreilly.com/product/0636920032984.do) - Getting the Most Out of Your Infrastructure Automation. Take advantage of Chef’s highly customizable design to tackle specific automation issues that you can’t solve by simply using Chef’s tools, resources, and services out of the box.
+* [Learning Chef](http://shop.oreilly.com/product/0636920032397.do) - A Guide to Configuration Management and Automation.
+* [Test-Driven Infrastructure with Chef](http://shop.oreilly.com/product/0636920020042.do) - Bring behaviour-driven development to infrastructure as code.
+* [Test-Driven Infrastructure with Chef, 2nd Edition](http://shop.oreilly.com/product/0636920030973.do) - Bring Behavior-Driven Development to Infrastructure as Code.
+* [Managing Windows Servers with Chef](https://www.packtpub.com/networking-and-servers/managing-windows-servers-chef) - Harness the power of Chef to automate management of Windows-based systems using hands-on examples.
+* [The chef-book](https://github.com/jjasghar/chef-book) - People Keep Asking Me How to Start With Chef.
+* [Getting started with Chef](http://gettingstartedwithchef.com/) - Learn how to configure, manage and provision cloud servers with Chef by following practical examples with real world applications.
