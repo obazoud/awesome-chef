@@ -2,11 +2,24 @@
 
 > [Chef](http://getchef.com) is a systems and cloud infrastructure automation framework that makes it easy to deploy servers and applications to any physical, virtual, or cloud location, no matter the size of the infrastructure.. — [Chef](http://docs.getchef.com/)
 
+--
 A curated list of amazingly awesome open source Chef resources.
 
 * [Awesome Chef](#awesome-chef)
+  * [Podcasts](#podcasts)
   * [Chef handlers](#chef-handlers)
 
+## Podcasts
+
+### Chef podcast
+
+* [Food Fight Show](http://foodfightshow.org/) - The Podcast where DevOps chefs do battle
+
+### DevOps podcast
+
+* [DevOps Cafe Podcast](http://devopscafe.org/) - 
+* [Ops All The Things!](http://www.opsallthethings.com/) - A Podcast about all things Operations, DevOps and Systems Administration
+* [Arrested DevOps](http://www.arresteddevops.com/) - There's always DevOps in the banana stand
 
 ## Chef handlers
 
