@@ -9,6 +9,7 @@ A curated list of amazingly awesome open source Chef resources.
   * [Cookbooks](#Cookbooks)
   * [Podcasts](#podcasts)
   * [Chef handlers](#chef-handlers)
+  * [Add-ons](#add-ons)
 
 
 ## Cookbooks
@@ -65,3 +66,7 @@ A curated list of amazingly awesome open source Chef resources.
 * [Chef Syslog Handler](https://github.com/jblaine/syslog_handler) - Syslog report and error handler for Chef.
 * [Chef Updated Resources Handler](https://github.com/jtimberman/chef-handler-updated-resources) - Simple Report Handler of Updated Resources.
 
+## Add-ons
+
+* [Chef Rewind](https://github.com/bryanwb/chef-rewind) - Monkeypatch chef to edit existing resources in place
+* [Chef Sugar](https://github.com/sethvargo/chef-sugar) - Chef Sugar is a Gem & Chef Recipe that includes series of helpful sugar of the Chef core and other resources to make a cleaner, more lean recipe DSL, enforce DRY principles, and make writing Chef recipes an awesome experience!
