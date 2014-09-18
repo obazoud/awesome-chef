@@ -6,8 +6,26 @@
 A curated list of amazingly awesome open source Chef resources.
 
 * [Awesome Chef](#awesome-chef)
+  * [Cookbooks](#Cookbooks)
   * [Podcasts](#podcasts)
   * [Chef handlers](#chef-handlers)
+
+
+## Cookbooks
+
+> A cookbook is the fundamental unit of configuration and policy distribution in Chef. Each cookbook defines a scenario, such as everything needed to install and configure MySQL, and then it contains all of the components that are required to support that scenario. Chef maintains a collection of cookbooks that are important to Chef and are widely used by the Chef community. - [What is a cookbook?](https://supermarket.getchef.com/cookbooks-directory)
+
+
+### Official and community Cookbooks
+
+* [Supermarket](https://supermarket.getchef.com/cookbooks-directory) - Find, explore and view Chef cookbooks for all of your ops needs.
+
+### Others (or alternative) Cookbooks
+
+* [Collectd cookbook](https://github.com/hectcastro/chef-collectd.git) - A Chef cookbook to install [Collectd](http://collectd.org).
+* [Graphitus cookbook](https://github.com/kisoku/graphitus-chef) - Chef cookbooks for [Graphitus](https://github.com/ezbz/graphitus)
+* [Grafana cookbook](https://github.com/dzautner/grafana-cookbook) - A chef cookbook for [Grafana](http://grafana.org/) (A Graphite Dashboard and Graph Editor)
+* [Icinga/Check MK cookbook](https://github.com/Bigpoint/icinga) - Chef cookbook for [Icinga](https://www.icinga.org/)/[CheckMK](https://mathias-kettner.de/check_mk.html)
 
 ## Podcasts
 
