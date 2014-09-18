@@ -13,6 +13,7 @@ A curated list of amazingly awesome open source Chef resources.
   * [Books](#books)
   * [Newsletters](#newsletters)
 
+See [Contribution Guidelines](#contribution-guidelines)
 
 ## Cookbooks
 
@@ -87,3 +88,17 @@ A curated list of amazingly awesome open source Chef resources.
 ## Newsletters
 
 * [UsingChef Newsletter](http://usingchef.com/) - This newsletter is intended for the Chef practitioner who uses Chef every day and wants to learn something new, make their lives easier, and stay up to date.
+
+# Contribution Guidelines
+
+Please ensure your pull request adheres to the following guidelines:
+
+* Please search previous suggestions before making a new one, as yours may be a duplicate.
+* Please make an individual pull request for each suggestion.
+* Use the following format: \[RESOURCE\]\(LINK\) - DESCRIPTION.
+* Keep descriptions short and simple.
+* End all descriptions with a full stop/period.
+* Check your spelling and grammar.
+* New categories, or improvements to the existing categorisation are welcome.
+
+Thank you for your suggestions!
