@@ -11,6 +11,7 @@ A curated list of amazingly awesome open source Chef resources.
   * [Chef handlers](#chef-handlers)
   * [Add-ons](#add-ons)
   * [Books](#books)
+  * [Newsletters](#newsletters)
 
 
 ## Cookbooks
@@ -82,3 +83,7 @@ A curated list of amazingly awesome open source Chef resources.
 * [Managing Windows Servers with Chef](https://www.packtpub.com/networking-and-servers/managing-windows-servers-chef) - Harness the power of Chef to automate management of Windows-based systems using hands-on examples.
 * [The chef-book](https://github.com/jjasghar/chef-book) - People Keep Asking Me How to Start With Chef.
 * [Getting started with Chef](http://gettingstartedwithchef.com/) - Learn how to configure, manage and provision cloud servers with Chef by following practical examples with real world applications.
+
+## Newsletters
+
+* [UsingChef Newsletter](http://usingchef.com/) - This newsletter is intended for the Chef practitioner who uses Chef every day and wants to learn something new, make their lives easier, and stay up to date.
