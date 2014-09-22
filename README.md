@@ -12,6 +12,7 @@ A curated list of amazingly awesome open source Chef resources.
   * [Add-ons](#add-ons)
   * [Books](#books)
   * [Newsletters](#newsletters)
+  * [Articles](#articles)
 
 See [Contribution Guidelines](#contribution-guidelines)
 
@@ -88,6 +89,11 @@ See [Contribution Guidelines](#contribution-guidelines)
 ## Newsletters
 
 * [UsingChef Newsletter](http://usingchef.com/) - This newsletter is intended for the Chef practitioner who uses Chef every day and wants to learn something new, make their lives easier, and stay up to date.
+
+## Articles
+
+* [Secrets Management and Chef](https://coderanger.net/chef-secrets/) - Everyone has secrets. Database passwords, API credentials, recovery questions. These secrets need to be stored somewhere, and then made available to servers that use them.
+* [How to Write Reusable Chef Cookbooks, Gangnam Style](http://devopsanywhere.blogspot.fr/2012/11/how-to-write-reusable-chef-cookbooks.html) - 
 
 # Contribution Guidelines
 
