@@ -77,6 +77,7 @@ See [Contribution Guidelines](#contribution-guidelines)
 * [Knife Spork](https://github.com/jonlives/knife-spork) - A workflow plugin to help many devs work with cookbooks and environments at once.
 * [Knife Flip](https://github.com/jonlives/knife-flip) - A knife plugin to quickly move a node between environments.
 * [Chef Whitelist](https://github.com/etsy/chef-whitelist) - Simple library to enable host based rollouts of changes.
+* [Poise Appenv](https://github.com/poise/poise-appenv) - Helpers for application-specific envronment settings in Chef.
 
 ## Books
 
