@@ -74,6 +74,9 @@ See [Contribution Guidelines](#contribution-guidelines)
 
 * [Chef Rewind](https://github.com/bryanwb/chef-rewind) - Monkeypatch chef to edit existing resources in place
 * [Chef Sugar](https://github.com/sethvargo/chef-sugar) - Chef Sugar is a Gem & Chef Recipe that includes series of helpful sugar of the Chef core and other resources to make a cleaner, more lean recipe DSL, enforce DRY principles, and make writing Chef recipes an awesome experience!
+* [Knife Spork](https://github.com/jonlives/knife-spork) - A workflow plugin to help many devs work with cookbooks and environments at once.
+* [Knife Flip](https://github.com/jonlives/knife-flip) - A knife plugin to quickly move a node between environments.
+* [Chef Whitelist](https://github.com/etsy/chef-whitelist) - Simple library to enable host based rollouts of changes.
 
 ## Books
 
