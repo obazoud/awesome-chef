@@ -78,6 +78,7 @@ See [Contribution Guidelines](#contribution-guidelines)
 * [Knife Flip](https://github.com/jonlives/knife-flip) - A knife plugin to quickly move a node between environments.
 * [Chef Whitelist](https://github.com/etsy/chef-whitelist) - Simple library to enable host based rollouts of changes.
 * [Poise Appenv](https://github.com/poise/poise-appenv) - Helpers for application-specific envronment settings in Chef.
+* [Chef-Guard](https://github.com/xanzy/chef-guard) - An add-on that protects your Chef server from untested and uncommitted (i.e. potentially dangerous) cookbooks.
 
 ## Books
 
