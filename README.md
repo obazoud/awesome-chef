@@ -40,7 +40,7 @@ See [Contribution Guidelines](#contribution-guidelines)
 
 ### DevOps podcast
 
-* [DevOps Cafe Podcast](http://devopscafe.org/) - 
+* [DevOps Cafe Podcast](http://devopscafe.org/) -
 * [Ops All The Things!](http://www.opsallthethings.com/) - A Podcast about all things Operations, DevOps and Systems Administration
 * [Arrested DevOps](http://www.arresteddevops.com/) - There's always DevOps in the banana stand
 
@@ -65,6 +65,7 @@ See [Contribution Guidelines](#contribution-guidelines)
 * [Chef Growl Handler](https://github.com/jtimberman/chef-handler-growl) - A simple Chef report handler using ruby_gntp to send growl notifications
 * [Chef HipChat Handler](https://github.com/mojotech/hipchat/blob/master/lib/hipchat/chef.rb) - A handler that collects exception and report handler data and then sends it as a Growl notification.
 * [Chef IRC Snitch Handler](https://github.com/portertech/chef-irc-snitch) - An exception handler for OpsCode Chef runs, GitHub Gist & IRC.
+* [Chef Librato Handler](https://github.com/bscott/chef-handler-librato) - A handler that sends Chef run metrics to Librato.
 * [Chef Mail Handler](https://github.com/kisoku/chef-handler-mail) - A simple chef report handler that uses the Pony gem to send email reports generated from an Erubis template.
 * [Chef Splunk Storm Handler](https://github.com/ampledata/chef-handler-splunkstorm) - A Chef Exception & Reporting Handler for Splunk Storm
 * [Chef Syslog Handler](https://github.com/jblaine/syslog_handler) - Syslog report and error handler for Chef.
@@ -98,7 +99,7 @@ See [Contribution Guidelines](#contribution-guidelines)
 ## Articles
 
 * [Secrets Management and Chef](https://coderanger.net/chef-secrets/) - Everyone has secrets. Database passwords, API credentials, recovery questions. These secrets need to be stored somewhere, and then made available to servers that use them.
-* [How to Write Reusable Chef Cookbooks, Gangnam Style](http://devopsanywhere.blogspot.fr/2012/11/how-to-write-reusable-chef-cookbooks.html) - 
+* [How to Write Reusable Chef Cookbooks, Gangnam Style](http://devopsanywhere.blogspot.fr/2012/11/how-to-write-reusable-chef-cookbooks.html) -
 
 # Contribution Guidelines
 
