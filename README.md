@@ -6,8 +6,8 @@
 A curated list of amazingly awesome open source Chef resources.
 
 * [Awesome Chef](#awesome-chef)
-  * [Basics](#Basics)
-  * [Cookbooks](#Cookbooks)
+  * [Basics](#basics)
+  * [Cookbooks](#cookbooks)
   * [Podcasts](#podcasts)
   * [Chef handlers](#chef-handlers)
   * [Add-ons](#add-ons)
