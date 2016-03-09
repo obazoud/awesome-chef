@@ -8,6 +8,7 @@ A curated list of amazingly awesome open source Chef resources.
 * [Awesome Chef](#awesome-chef)
   * [Basics](#basics)
   * [Cookbooks](#cookbooks)
+  * [Resources](#resources)
   * [Podcasts](#podcasts)
   * [Chef handlers](#chef-handlers)
   * [Add-ons](#add-ons)
@@ -28,21 +29,128 @@ See [Contribution Guidelines](#contribution-guidelines)
 * [Resource](https://docs.chef.io/resources.html) - overview of a chef resource which is a building block of a recipe
 * [Data Bag](https://docs.chef.io/data_bags.html) - overview of data bag and its usage
 
+
 ## Cookbooks
 
 > A cookbook is the fundamental unit of configuration and policy distribution in Chef. Each cookbook defines a scenario, such as everything needed to install and configure MySQL, and then it contains all of the components that are required to support that scenario. Chef maintains a collection of cookbooks that are important to Chef and are widely used by the Chef community. - [What is a cookbook?](https://supermarket.getchef.com/cookbooks-directory)
 
+### Docker
+* [docker](https://github.com/chef-cookbooks/docker)
 
-### Official and community Cookbooks
+### Language Runtime
+* [java](https://github.com/agileorbit-cookbooks/java)
+* [nodejs](https://github.com/redguide/nodejs)
+* [php](https://github.com/chef-cookbooks/php)
+* [python](https://github.com/poise/python)
 
-* [Supermarket](https://supermarket.getchef.com/cookbooks-directory) - Find, explore and view Chef cookbooks for all of your ops needs.
+### Ruby Environment
+* [rbenv](https://github.com/RiotGamesCookbooks/rbenv-cookbook) - configure [rbenv](https://github.com/rbenv/rbenv)
 
-### Others (or alternative) Cookbooks
+### Web Server
+* [apache2](https://github.com/svanzoest-cookbooks/apache2) - Apache HTTP server v2.x
+* [nginx](https://github.com/miketheman/nginx)
+* [tomcat](https://github.com/chef-cookbooks/tomcat)
 
-* [Collectd cookbook](https://github.com/hectcastro/chef-collectd.git) - A Chef cookbook to install [Collectd](http://collectd.org).
-* [Graphitus cookbook](https://github.com/kisoku/graphitus-chef) - Chef cookbooks for [Graphitus](https://github.com/ezbz/graphitus)
-* [Grafana cookbook](https://github.com/dzautner/grafana-cookbook) - A chef cookbook for [Grafana](http://grafana.org/) (A Graphite Dashboard and Graph Editor)
-* [Icinga/Check MK cookbook](https://github.com/Bigpoint/icinga) - Chef cookbook for [Icinga](https://www.icinga.org/)/[CheckMK](https://mathias-kettner.de/check_mk.html)
+### Database Server
+* [database](https://github.com/chef-cookbooks/database)
+* [mysql](https://github.com/chef-cookbooks/mysql)
+* [mongodb](https://github.com/edelight/chef-mongodb)
+* [postgresql](https://github.com/hw-cookbooks/postgresql)
+* [redis](https://github.com/brianbianco/redisio)
+
+### Cache, Proxy and Message Queue
+* [haproxy](https://github.com/hw-cookbooks/haproxy)
+* [memcached](https://github.com/chef-cookbooks/memcached)
+* [rabbitmq](https://github.com/jjasghar/rabbitmq)
+
+### Web Applications
+* [elasticsearch](https://github.com/elastic/cookbook-elasticsearch)
+* [jenkins](https://github.com/chef-cookbooks/jenkins)
+* [postfix](https://github.com/chef-cookbooks/postfix)
+* [wordpress](https://github.com/brint/wordpress-cookbook)
+
+### Building/Installing Software
+* [build-essential](https://github.com/chef-cookbooks/build-essential) - gcc, make, autoconf, bison, gettext etc
+* [git](https://github.com/chef-cookbooks/git)
+
+### Logging/Monitoring
+* [collectd](https://github.com/hectcastro/chef-collectd.git) - [Collectd](http://collectd.org).
+* [grafana](https://github.com/dzautner/grafana-cookbook) - [Grafana](http://grafana.org/) (A Graphite Dashboard and Graph Editor)
+* [graphitus](https://github.com/kisoku/graphitus-chef) - [Graphitus](https://github.com/ezbz/graphitus)
+* [graylog](https://github.com/Graylog2/graylog2-cookbook) - [Graylog](https://www.graylog.org/)
+* [icinga](https://github.com/Bigpoint/icinga) - [Icinga](https://www.icinga.org/)/[CheckMK](https://mathias-kettner.de/check_mk.html)
+* [logrotate](https://github.com/stevendanna/logrotate)
+* [logstash](https://github.com/lusis/chef-logstash)
+* [nagios](https://github.com/schubergphilis/nagios)
+* [newrelic](https://github.com/escapestudios-cookbooks/newrelic)
+
+### Network
+* [iptables](https://github.com/chef-cookbooks/iptables)
+* [ntp](https://github.com/gmiranda23/ntp)
+* [openssh](https://github.com/chef-cookbooks/openssh)
+
+## Resources
+When you write wrapper cookbooks, use following resources. The list includes both Chef's built in resources and LWRP of community/open source cookbooks
+
+### Commands/Scripts
+* [cron](https://docs.chef.io/resource_cron.html) - Chef builtin resource
+* [cron_d](https://github.com/chef-cookbooks/cron#cron_d) - LWRP to manage files in /etc/cron.d
+* [execute](https://docs.chef.io/resource_execute.html) - Chef builtin resource
+* [script](https://docs.chef.io/resource_script.html) - Chef builtin resource
+
+### Files/Directories
+* [cookbook_file](https://docs.chef.io/resource_cookbook_file.html) - Chef builtin resource
+* [directory](https://docs.chef.io/resource_directory.html) - Chef builtin resource
+* [file](https://docs.chef.io/resource_file.html) - Chef builtin resource
+* [link](https://docs.chef.io/resource_link.html) - Chef builtin resource
+* [remote_file](https://docs.chef.io/resource_remote_file.html) - Chef builtin resource
+* [template](https://docs.chef.io/resource_template.html) - Chef builtin resource
+
+### User Management/Authorization
+* [group](https://docs.chef.io/resource_group.html) - Chef builtin resource
+* [user](https://docs.chef.io/resource_user.html) - Chef builtin resource, manage user
+* [users_manage](https://github.com/chef-cookbooks/users#users_manage) - manage user using data bag search
+* [sudo](https://github.com/chef-cookbooks/sudo#lwrp)
+
+### Security
+* [random_password](https://github.com/chef-cookbooks/openssl#random_password-opensslcookbookrandompassword) - use openssl
+* [openssl_dhparam](https://github.com/chef-cookbooks/openssl#openssl_dhparam)
+* [openssl_rsa_key](https://github.com/chef-cookbooks/openssl#openssl_rsa_key)
+* [openssl_x509](https://github.com/chef-cookbooks/openssl#openssl_x509)
+
+### Deployment
+* [git](https://docs.chef.io/resource_git.html) - Chef builtin resource
+* [deploy](https://docs.chef.io/resource_deploy.html) - Chef builtin resource
+* [application](https://github.com/poise/application)
+* [application_git](https://github.com/poise/application_git)
+* [application_javascript](https://github.com/poise/application_javascript)
+* [application_nodejs](https://github.com/mburns/application_nodejs)
+* [application_python](https://github.com/poise/application_python)
+* [application_ruby](https://github.com/poise/application_ruby)
+
+### Apache HTTP Server Config
+* [php_fpm_pool](https://github.com/chef-cookbooks/php#php_fpm_pool)
+* [web_app](https://github.com/svanzoest-cookbooks/apache2#web_app) - setup Apache HTTP server v2.x virtual host
+
+### Packages/Package Repositories
+* [package](https://docs.chef.io/resource_package.html) - Chef builtin resource
+* [apt_repository](https://github.com/chef-cookbooks/apt#resourcesproviders)
+* [yum_repository](https://github.com/chef-cookbooks/yum#yum_repository)
+
+### Operating System Configuration
+* [hostsfile_entry](https://github.com/customink-webops/hostsfile#hostsfile-lwrp) - /etc/hosts file
+* [mount](https://docs.chef.io/resource_mount.html) - Chef builtin resource
+* [service](https://docs.chef.io/resource_service.html) - Chef builtin resource
+* [runit_service](https://github.com/hw-cookbooks/runit#resourceprovider) - Configure [runit](http://smarden.org/runit/)
+
+## Chef for Windows
+### Application Cookbooks
+[Microsoft Internet Information Services](https://supermarket.chef.io/cookbooks/iis)
+
+### Resources
+* [user](https://docs.chef.io/resource_user.html) - Chef builtin resource, Windows compatible
+* [chocolatey_package](https://docs.chef.io/resource_chocolatey_package.html) - Manage packages using [Chocolatey](https://chocolatey.org/) windows package management system
+* [powershell](https://github.com/chef-cookbooks/powershell)
 
 ## Podcasts
 
