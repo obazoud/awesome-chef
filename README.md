@@ -6,6 +6,7 @@
 A curated list of amazingly awesome open source Chef resources.
 
 * [Awesome Chef](#awesome-chef)
+  * [Basics](#Basics)
   * [Cookbooks](#Cookbooks)
   * [Podcasts](#podcasts)
   * [Chef handlers](#chef-handlers)
@@ -15,6 +16,17 @@ A curated list of amazingly awesome open source Chef resources.
   * [Articles](#articles)
 
 See [Contribution Guidelines](#contribution-guidelines)
+
+## Basics
+* [Chef (software)](https://en.wikipedia.org/wiki/Chef_(software)) - An article in Wikipedia
+* [An Overview](https://docs.chef.io/chef_overview.html) - by official chef.io
+* [Workstation](https://docs.chef.io/workstation.html) - overview on Knife, chef-repo, Chef DK etc by official chef.io
+* [Server](https://docs.chef.io/chef_server.html) - overview of chef server components
+* [Node](https://docs.chef.io/nodes.html) - overview of how chef-client runs, run-list, node names, etc
+* [Cookbook](https://docs.chef.io/cookbooks.html) - what is a cookbook and its components (metadata, recipe, resource, attributes, templates, etc)
+* [Attribute](https://docs.chef.io/attributes.html) - attibutes defined by type (default, normal, automatic), by useage (node, role, environment)
+* [Resource](https://docs.chef.io/resources.html) - overview of a chef resource which is a building block of a recipe
+* [Data Bag](https://docs.chef.io/data_bags.html) - overview of data bag and its usage
 
 ## Cookbooks
 
