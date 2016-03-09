@@ -140,17 +140,49 @@ When you write wrapper cookbooks, use following resources. The list includes bot
 ### Operating System Configuration
 * [hostsfile_entry](https://github.com/customink-webops/hostsfile#hostsfile-lwrp) - /etc/hosts file
 * [mount](https://docs.chef.io/resource_mount.html) - Chef builtin resource
+* [route](https://docs.chef.io/resource_route.html) - Chef builtin resource, manage system's routing table
 * [service](https://docs.chef.io/resource_service.html) - Chef builtin resource
 * [runit_service](https://github.com/hw-cookbooks/runit#resourceprovider) - Configure [runit](http://smarden.org/runit/)
 
 ## Chef for Windows
-### Application Cookbooks
-[Microsoft Internet Information Services](https://supermarket.chef.io/cookbooks/iis)
+List of cookbooks and resources which supports windows
 
-### Resources
-* [user](https://docs.chef.io/resource_user.html) - Chef builtin resource, Windows compatible
+### Application Cookbooks - Language Runtime
+* [java](https://github.com/agileorbit-cookbooks/java)
+* [php](https://github.com/chef-cookbooks/php)
+
+### Application Cookbooks - Software
+* [iis](https://supermarket.chef.io/cookbooks/iis) - Microsoft Internet Information Services
+
+### Resources - Files/Directories
+* [cookbook_file](https://docs.chef.io/resource_cookbook_file.html) - Chef builtin resource
+* [directory](https://docs.chef.io/resource_directory.html) - Chef builtin resource
+* [file](https://docs.chef.io/resource_file.html) - Chef builtin resource
+* [link](https://docs.chef.io/resource_link.html) - Chef builtin resource
+* [mount](https://docs.chef.io/resource_mount.html) - Chef builtin resource
+* [remote_file](https://docs.chef.io/resource_remote_file.html) - Chef builtin resource
+* [template](https://docs.chef.io/resource_template.html) - Chef builtin resource
+
+### Resources - Command Execution / Launching Software
+* [batch](https://docs.chef.io/resource_batch.html) - Chef builtin resource, manage batch script
+* [windows_auto_run](https://github.com/chef-cookbooks/windows#windows_auto_run) - Configure an software to run at login
+
+### Resources - Package/Software Installation
 * [chocolatey_package](https://docs.chef.io/resource_chocolatey_package.html) - Manage packages using [Chocolatey](https://chocolatey.org/) windows package management system
+* [env](https://docs.chef.io/resource_env.html) - Chef builtin resource, manage environment keys in Microsoft Windows
 * [powershell](https://github.com/chef-cookbooks/powershell)
+* [reboot](https://docs.chef.io/resource_reboot.html) - Chef builtin resource
+* [windows_feature](https://github.com/chef-cookbooks/windows#windows_feature)
+* [windows_package](https://docs.chef.io/resource_windows_package.html) - Chef builtin resource
+
+### Resources - OS configuration
+* [user](https://docs.chef.io/resource_user.html) - Chef builtin resource, Windows compatible
+* [windows_certificate](https://github.com/chef-cookbooks/windows#windows_certificate) - Installs a certificate into the Windows certificate store from a file
+* [windows_path](https://github.com/chef-cookbooks/windows#windows_path)
+* [registry_key](https://docs.chef.io/resource_registry_key.html)
+* [windows_registry](https://github.com/chef-cookbooks/windows#windows_registry)
+* [windows_service](https://docs.chef.io/resource_windows_service.html) - Chef builtin resource
+* [windows_task](https://github.com/chef-cookbooks/windows#windows_task)
 
 ## Podcasts
 
