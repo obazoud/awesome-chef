@@ -45,6 +45,7 @@ See [Contribution Guidelines](#contribution-guidelines)
 
 ### Ruby Environment
 * [rbenv](https://github.com/RiotGamesCookbooks/rbenv-cookbook) - configure [rbenv](https://github.com/rbenv/rbenv).
+* [rvm](https://github.com/martinisoft/chef-rvm)
 
 ### Web Server
 * [apache2](https://github.com/svanzoest-cookbooks/apache2) - Apache HTTP server v2.x.
@@ -75,7 +76,9 @@ See [Contribution Guidelines](#contribution-guidelines)
 
 ### Logging/Monitoring
 * [collectd](https://github.com/hectcastro/chef-collectd.git) - [Collectd](http://collectd.org)
+* [fail2ban](https://github.com/chef-cookbooks/fail2ban) - [Fail2ban](http://www.fail2ban.org/wiki/index.php/Main_Page)
 * [grafana](https://github.com/dzautner/grafana-cookbook) - [Grafana](http://grafana.org/) (A Graphite Dashboard and Graph Editor)
+* [graphite](https://github.com/hw-cookbooks/graphite) - [Graphite](http://graphite.wikidot.com/)
 * [graphitus](https://github.com/kisoku/graphitus-chef) - [Graphitus](https://github.com/ezbz/graphitus)
 * [graylog](https://github.com/Graylog2/graylog2-cookbook) - [Graylog](https://www.graylog.org/)
 * [icinga](https://github.com/Bigpoint/icinga) - [Icinga](https://www.icinga.org/)/[CheckMK](https://mathias-kettner.de/check_mk.html)
@@ -83,6 +86,9 @@ See [Contribution Guidelines](#contribution-guidelines)
 * [logstash](https://github.com/lusis/chef-logstash)
 * [nagios](https://github.com/schubergphilis/nagios)
 * [newrelic](https://github.com/escapestudios-cookbooks/newrelic)
+* [rsyslog](https://github.com/chef-cookbooks/rsyslog)
+* [sensu](https://github.com/sensu/sensu-chef) - [sensu](https://sensuapp.org/)
+* [zabbix](https://github.com/laradji/zabbix) - [zabbix](http://www.zabbix.com/)
 
 ### Network
 * [iptables](https://github.com/chef-cookbooks/iptables)
@@ -99,6 +105,7 @@ When you write wrapper cookbooks, use following resources. The list includes bot
 * [script](https://docs.chef.io/resource_script.html) - Chef builtin resource.
 
 ### Files/Directories
+* [ark](https://github.com/burtlo/ark#resources) - extract/build/configure.
 * [cookbook_file](https://docs.chef.io/resource_cookbook_file.html) - Chef builtin resource.
 * [directory](https://docs.chef.io/resource_directory.html) - Chef builtin resource.
 * [file](https://docs.chef.io/resource_file.html) - Chef builtin resource.
@@ -113,6 +120,8 @@ When you write wrapper cookbooks, use following resources. The list includes bot
 * [sudo](https://github.com/chef-cookbooks/sudo#lwrp)
 
 ### Security
+* [firewall](https://github.com/chef-cookbooks/firewall#firewall)
+* [firewall_rule](https://github.com/chef-cookbooks/firewall#firewall_rule)
 * [random_password](https://github.com/chef-cookbooks/openssl#random_password-opensslcookbookrandompassword) - useing openssl.
 * [openssl_dhparam](https://github.com/chef-cookbooks/openssl#openssl_dhparam)
 * [openssl_rsa_key](https://github.com/chef-cookbooks/openssl#openssl_rsa_key)
@@ -142,6 +151,7 @@ When you write wrapper cookbooks, use following resources. The list includes bot
 * [mount](https://docs.chef.io/resource_mount.html) - Chef builtin resource.
 * [route](https://docs.chef.io/resource_route.html) - Chef builtin resource, manage system's routing table.
 * [service](https://docs.chef.io/resource_service.html) - Chef builtin resource.
+* [sysctl_param](https://github.com/svanzoest-cookbooks/sysctl/#using-lwrps) - set the kernel parameter.
 * [runit_service](https://github.com/hw-cookbooks/runit#resourceprovider) - Configure [runit](http://smarden.org/runit/).
 
 ## Chef for Windows
@@ -153,6 +163,7 @@ List of cookbooks and resources which supports windows.
 
 ### Application Cookbooks - Software
 * [iis](https://supermarket.chef.io/cookbooks/iis) - Microsoft Internet Information Services.
+* [sql_server](https://github.com/chef-cookbooks/sql_server) - Microsoft SQL Server 2008 R2 and Microsoft SQL Server 2012 server and client. 
 
 ### Resources - Files/Directories
 * [cookbook_file](https://docs.chef.io/resource_cookbook_file.html) - Chef builtin resource.
