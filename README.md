@@ -117,11 +117,13 @@ See [Contribution Guidelines](#contribution-guidelines)
 * [splunk](https://github.com/BestBuy/splunk_cookbook) - [Splunk](http://www.splunk.com/)
 * [zabbix](https://github.com/laradji/zabbix) - [Zabbix](http://www.zabbix.com/)
 
-### Network
+### Network/Security
 * [iptables](https://github.com/chef-cookbooks/iptables)
 * [nfs](https://github.com/atomic-penguin/cookbook-nfs)
 * [ntp](https://github.com/gmiranda23/ntp)
+* [openldap](https://github.com/chef-cookbooks/openldap)
 * [openssh](https://github.com/chef-cookbooks/openssh)
+* [openvpn](https://github.com/xhost-cookbooks/openvpn) 
 * [resolver](https://github.com/chef-cookbooks/resolver) - Configures ```/etc/resolv.conf``` via attributes.
 
 ## Resources
@@ -140,6 +142,7 @@ When you write wrapper cookbooks, use following resources. The list includes bot
 * [file](https://docs.chef.io/resource_file.html) - Chef builtin resource.
 * [link](https://docs.chef.io/resource_link.html) - Chef builtin resource.
 * [remote_file](https://docs.chef.io/resource_remote_file.html) - Chef builtin resource.
+* [rsync_serve](https://github.com/chef-cookbooks/rsync#resourcesproviders) - rsync server module.
 * [template](https://docs.chef.io/resource_template.html) - Chef builtin resource.
 
 ### User Management/Authorization
@@ -157,7 +160,6 @@ When you write wrapper cookbooks, use following resources. The list includes bot
 * [openssl_dhparam](https://github.com/chef-cookbooks/openssl#openssl_dhparam)
 * [openssl_rsa_key](https://github.com/chef-cookbooks/openssl#openssl_rsa_key)
 * [openssl_x509](https://github.com/chef-cookbooks/openssl#openssl_x509) - Generates self-signed, PEM-formatted x509 certificates.
-* [openvpn](https://github.com/xhost-cookbooks/openvpn)
 * [selinux_state](https://github.com/skottler/selinux#selinux_state)
 * [ssh_known_hosts_entry](https://github.com/chef-cookbooks/ssh_known_hosts#lwrp)
 
