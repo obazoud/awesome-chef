@@ -152,7 +152,7 @@ When you write wrapper cookbooks, use following resources. The list includes bot
 * [certificate_manage](https://github.com/atomic-penguin/cookbook-certificate#resourcesproviders) - Manages x509 certificates and keys from encrypted Data Bags.
 * [firewall](https://github.com/chef-cookbooks/firewall#firewall)
 * [firewall_rule](https://github.com/chef-cookbooks/firewall#firewall_rule)
-* [letsencrypt_certificate](https://github.com/schubergphilis/letsencrypt#usage) - Automatically get/renew free and trusted certificates from Let's [Encrypt](https://letsencrypt.org).
+* [letsencrypt_certificate](https://github.com/schubergphilis/letsencrypt#usage) - Automatically get/renew free and trusted certificates from [Let's Encrypt](https://letsencrypt.org).
 * [random_password](https://github.com/chef-cookbooks/openssl#random_password-opensslcookbookrandompassword) - useing openssl.
 * [openssl_dhparam](https://github.com/chef-cookbooks/openssl#openssl_dhparam)
 * [openssl_rsa_key](https://github.com/chef-cookbooks/openssl#openssl_rsa_key)
