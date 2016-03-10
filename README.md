@@ -37,35 +37,51 @@ See [Contribution Guidelines](#contribution-guidelines)
 ### Docker
 * [docker](https://github.com/chef-cookbooks/docker)
 
-### Language Runtime
+### Ruby
+* [chruby](https://github.com/ichilton/chef_chruby_install)
+* [rbenv](https://github.com/RiotGamesCookbooks/rbenv-cookbook) - configure [rbenv](https://github.com/rbenv/rbenv).
+* [ruby_build](https://github.com/fnichol/chef-ruby_build)
+* [rvm](https://github.com/martinisoft/chef-rvm)
+* [unicorn](https://github.com/chef-cookbooks/unicorn) - Deprecated
+* [xml::ruby](https://github.com/chef-cookbooks/xml#ruby) - Installs the nokogiri gem into Chef's Ruby environment.
+
+### Java
+* [maven](https://github.com/chef-cookbooks/maven)
 * [java](https://github.com/agileorbit-cookbooks/java)
+
+### Language Runtimes
+* [erlang](https://github.com/chef-cookbooks/erlang)
 * [nodejs](https://github.com/redguide/nodejs)
+* [perl](https://github.com/chef-cookbooks/perl)
 * [php](https://github.com/chef-cookbooks/php)
 * [python](https://github.com/poise/python)
-
-### Ruby Environment
-* [rbenv](https://github.com/RiotGamesCookbooks/rbenv-cookbook) - configure [rbenv](https://github.com/rbenv/rbenv).
-* [rvm](https://github.com/martinisoft/chef-rvm)
 
 ### Web Server
 * [apache2](https://github.com/svanzoest-cookbooks/apache2) - Apache HTTP server v2.x.
 * [nginx](https://github.com/miketheman/nginx)
 * [tomcat](https://github.com/chef-cookbooks/tomcat)
+* [passenger_apache2](https://github.com/chef-cookbooks/passenger_apache2) - [Passenger](https://www.phusionpassenger.com/library) for Apache2.
 
 ### Database Server
+* [couchdb](https://github.com/wohali/couchdb-cookbook)
 * [database](https://github.com/chef-cookbooks/database)
+* [hadoop](https://github.com/caskdata/hadoop_cookbook) - Hadoop 2.0+.
 * [mysql](https://github.com/chef-cookbooks/mysql)
 * [mongodb](https://github.com/edelight/chef-mongodb)
+* [percona](https://github.com/phlipper/chef-percona) - [Percona XtraDB Cluster](https://www.percona.com/software/mysql-database/percona-xtradb-cluster) and other components.
 * [postgresql](https://github.com/hw-cookbooks/postgresql)
 * [redis](https://github.com/brianbianco/redisio)
+* [riak](https://github.com/basho-labs/riak-chef-cookbook) - [Riak](http://basho.com/products/)
 
 ### Cache, Proxy and Message Queue
 * [haproxy](https://github.com/hw-cookbooks/haproxy)
 * [memcached](https://github.com/chef-cookbooks/memcached)
 * [rabbitmq](https://github.com/jjasghar/rabbitmq)
+* [varnish](https://github.com/rackspace-cookbooks/varnish)
 
 ### Web Applications
 * [elasticsearch](https://github.com/elastic/cookbook-elasticsearch)
+* [gitlab](https://github.com/atomic-penguin/cookbook-gitlab)
 * [jenkins](https://github.com/chef-cookbooks/jenkins)
 * [postfix](https://github.com/chef-cookbooks/postfix)
 * [wordpress](https://github.com/brint/wordpress-cookbook)
@@ -73,9 +89,17 @@ See [Contribution Guidelines](#contribution-guidelines)
 ### Building/Installing Software
 * [build-essential](https://github.com/chef-cookbooks/build-essential) - gcc, make, autoconf, bison, gettext etc.
 * [git](https://github.com/chef-cookbooks/git)
+* [xml](https://github.com/chef-cookbooks/xml) - Installs development package for [libxml](http://xmlsoft.org/).
+
+### Service Discovery
+* [consul](https://github.com/johnbellone/consul-cookbook) - [Hashicorp Consul](https://www.consul.io/)
+* [consul-template](https://github.com/adamkrone/chef-consul-template)
+* [etcd](https://github.com/chef-cookbooks/etcd) - [etcd](https://coreos.com/etcd/) is a distributed key value store that provides a reliable way to store data across a cluster of machines. 
+* [zookeeper](https://github.com/SimpleFinance/chef-zookeeper) - [Apache Zookeeper](https://zookeeper.apache.org/)
 
 ### Logging/Monitoring
 * [collectd](https://github.com/hectcastro/chef-collectd.git) - [Collectd](http://collectd.org)
+* [datadog](https://github.com/DataDog/chef-datadog) - [DataDog](https://www.datadoghq.com/)
 * [fail2ban](https://github.com/chef-cookbooks/fail2ban) - [Fail2ban](http://www.fail2ban.org/wiki/index.php/Main_Page)
 * [grafana](https://github.com/dzautner/grafana-cookbook) - [Grafana](http://grafana.org/) (A Graphite Dashboard and Graph Editor)
 * [graphite](https://github.com/hw-cookbooks/graphite) - [Graphite](http://graphite.wikidot.com/)
@@ -86,14 +110,19 @@ See [Contribution Guidelines](#contribution-guidelines)
 * [logstash](https://github.com/lusis/chef-logstash)
 * [nagios](https://github.com/schubergphilis/nagios)
 * [newrelic](https://github.com/escapestudios-cookbooks/newrelic)
+* [munin](https://github.com/jesseadams/munin) - [Munin](http://munin-monitoring.org/)
+* [monit](https://github.com/phlipper/chef-monit) - [Monit](https://mmonit.com/monit/)
 * [rsyslog](https://github.com/chef-cookbooks/rsyslog)
-* [sensu](https://github.com/sensu/sensu-chef) - [sensu](https://sensuapp.org/)
-* [zabbix](https://github.com/laradji/zabbix) - [zabbix](http://www.zabbix.com/)
+* [sensu](https://github.com/sensu/sensu-chef) - [Sensu](https://sensuapp.org/)
+* [splunk](https://github.com/BestBuy/splunk_cookbook) - [Splunk](http://www.splunk.com/)
+* [zabbix](https://github.com/laradji/zabbix) - [Zabbix](http://www.zabbix.com/)
 
 ### Network
 * [iptables](https://github.com/chef-cookbooks/iptables)
+* [nfs](https://github.com/atomic-penguin/cookbook-nfs)
 * [ntp](https://github.com/gmiranda23/ntp)
 * [openssh](https://github.com/chef-cookbooks/openssh)
+* [resolver](https://github.com/chef-cookbooks/resolver) - Configures ```/etc/resolv.conf``` via attributes.
 
 ## Resources
 When you write wrapper cookbooks, use following resources. The list includes both Chef's built in resources and LWRP of community/open source cookbooks.
@@ -120,12 +149,17 @@ When you write wrapper cookbooks, use following resources. The list includes bot
 * [sudo](https://github.com/chef-cookbooks/sudo#lwrp)
 
 ### Security
+* [certificate_manage](https://github.com/atomic-penguin/cookbook-certificate#resourcesproviders) - Manages x509 certificates and keys from encrypted Data Bags.
 * [firewall](https://github.com/chef-cookbooks/firewall#firewall)
 * [firewall_rule](https://github.com/chef-cookbooks/firewall#firewall_rule)
+* [letsencrypt_certificate](https://github.com/schubergphilis/letsencrypt#usage) - Automatically get/renew free and trusted certificates from Let's [Encrypt](https://letsencrypt.org).
 * [random_password](https://github.com/chef-cookbooks/openssl#random_password-opensslcookbookrandompassword) - useing openssl.
 * [openssl_dhparam](https://github.com/chef-cookbooks/openssl#openssl_dhparam)
 * [openssl_rsa_key](https://github.com/chef-cookbooks/openssl#openssl_rsa_key)
-* [openssl_x509](https://github.com/chef-cookbooks/openssl#openssl_x509)
+* [openssl_x509](https://github.com/chef-cookbooks/openssl#openssl_x509) - Generates self-signed, PEM-formatted x509 certificates.
+* [openvpn](https://github.com/xhost-cookbooks/openvpn)
+* [selinux_state](https://github.com/skottler/selinux#selinux_state)
+* [ssh_known_hosts_entry](https://github.com/chef-cookbooks/ssh_known_hosts#lwrp)
 
 ### Deployment
 * [git](https://docs.chef.io/resource_git.html) - Chef builtin resource.
@@ -153,6 +187,7 @@ When you write wrapper cookbooks, use following resources. The list includes bot
 * [service](https://docs.chef.io/resource_service.html) - Chef builtin resource.
 * [sysctl_param](https://github.com/svanzoest-cookbooks/sysctl/#using-lwrps) - set the kernel parameter.
 * [runit_service](https://github.com/hw-cookbooks/runit#resourceprovider) - Configure [runit](http://smarden.org/runit/).
+* [vim](https://github.com/chef-cookbooks/vim)
 
 ## Chef for Windows
 List of cookbooks and resources which supports windows.
@@ -164,6 +199,7 @@ List of cookbooks and resources which supports windows.
 ### Application Cookbooks - Software
 * [iis](https://supermarket.chef.io/cookbooks/iis) - Microsoft Internet Information Services.
 * [sql_server](https://github.com/chef-cookbooks/sql_server) - Microsoft SQL Server 2008 R2 and Microsoft SQL Server 2012 server and client. 
+* [7-zip](https://github.com/sneal/7-zip)
 
 ### Resources - Files/Directories
 * [cookbook_file](https://docs.chef.io/resource_cookbook_file.html) - Chef builtin resource.
