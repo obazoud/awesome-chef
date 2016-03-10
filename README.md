@@ -46,34 +46,41 @@ See [Contribution Guidelines](#contribution-guidelines)
 * [xml::ruby](https://github.com/chef-cookbooks/xml#ruby) - Installs the nokogiri gem into Chef's Ruby environment.
 
 ### Java
-* [maven](https://github.com/chef-cookbooks/maven)
 * [java](https://github.com/agileorbit-cookbooks/java)
+* [maven](https://github.com/chef-cookbooks/maven)
+* [tomcat](https://github.com/chef-cookbooks/tomcat)
+* [weblogic](https://github.com/universityofderby/chef-weblogic)
+
+### PHP
+* [composer](https://github.com/escapestudios-cookbooks/composer)
+* [php](https://github.com/chef-cookbooks/php)
 
 ### Language Runtimes
 * [erlang](https://github.com/chef-cookbooks/erlang)
 * [nodejs](https://github.com/redguide/nodejs)
 * [perl](https://github.com/chef-cookbooks/perl)
-* [php](https://github.com/chef-cookbooks/php)
 * [python](https://github.com/poise/python)
 
 ### Web Server
 * [apache2](https://github.com/svanzoest-cookbooks/apache2) - Apache HTTP server v2.x.
 * [nginx](https://github.com/miketheman/nginx)
-* [tomcat](https://github.com/chef-cookbooks/tomcat)
 * [passenger_apache2](https://github.com/chef-cookbooks/passenger_apache2) - [Passenger](https://www.phusionpassenger.com/library) for Apache2.
 
 ### Database Server
 * [couchdb](https://github.com/wohali/couchdb-cookbook)
 * [database](https://github.com/chef-cookbooks/database)
 * [hadoop](https://github.com/caskdata/hadoop_cookbook) - Hadoop 2.0+.
-* [mysql](https://github.com/chef-cookbooks/mysql)
+* [mariadb](https://github.com/sinfomicien/mariadb)
 * [mongodb](https://github.com/edelight/chef-mongodb)
+* [mysql](https://github.com/chef-cookbooks/mysql)
 * [percona](https://github.com/phlipper/chef-percona) - [Percona XtraDB Cluster](https://www.percona.com/software/mysql-database/percona-xtradb-cluster) and other components.
+* [oracle](https://github.com/aririikonen/oracle)
 * [postgresql](https://github.com/hw-cookbooks/postgresql)
 * [redis](https://github.com/brianbianco/redisio)
 * [riak](https://github.com/basho-labs/riak-chef-cookbook) - [Riak](http://basho.com/products/)
 
-### Cache, Proxy and Message Queue
+### Loadbalancer, Cache, Proxy and Message Queue
+* [activemq](https://github.com/chef-cookbooks/activemq) - [ActiveMQ](http://activemq.apache.org/)
 * [haproxy](https://github.com/hw-cookbooks/haproxy)
 * [memcached](https://github.com/chef-cookbooks/memcached)
 * [rabbitmq](https://github.com/jjasghar/rabbitmq)
@@ -81,6 +88,7 @@ See [Contribution Guidelines](#contribution-guidelines)
 
 ### Web Applications
 * [elasticsearch](https://github.com/elastic/cookbook-elasticsearch)
+* [elkstack](https://github.com/rackspace-cookbooks/elkstack) - [ELK stack](https://www.elastic.co/webinars/introduction-elk-stack) Combine Elasticsearch, Logstash and Kibana.
 * [gitlab](https://github.com/atomic-penguin/cookbook-gitlab)
 * [jenkins](https://github.com/chef-cookbooks/jenkins)
 * [postfix](https://github.com/chef-cookbooks/postfix)
@@ -106,10 +114,12 @@ See [Contribution Guidelines](#contribution-guidelines)
 * [graphitus](https://github.com/kisoku/graphitus-chef) - [Graphitus](https://github.com/ezbz/graphitus)
 * [graylog](https://github.com/Graylog2/graylog2-cookbook) - [Graylog](https://www.graylog.org/)
 * [icinga](https://github.com/Bigpoint/icinga) - [Icinga](https://www.icinga.org/)/[CheckMK](https://mathias-kettner.de/check_mk.html)
+* [kibana](https://github.com/realityforge/chef-kibana) - [Kibana](https://www.elastic.co/products/kibana)
 * [logrotate](https://github.com/stevendanna/logrotate)
 * [logstash](https://github.com/lusis/chef-logstash)
 * [nagios](https://github.com/schubergphilis/nagios)
 * [newrelic](https://github.com/escapestudios-cookbooks/newrelic)
+* [newrelic_plugins](https://github.com/newrelic-platform/newrelic_plugins_chef)
 * [munin](https://github.com/jesseadams/munin) - [Munin](http://munin-monitoring.org/)
 * [monit](https://github.com/phlipper/chef-monit) - [Monit](https://mmonit.com/monit/)
 * [rsyslog](https://github.com/chef-cookbooks/rsyslog)
@@ -125,6 +135,7 @@ See [Contribution Guidelines](#contribution-guidelines)
 * [openssh](https://github.com/chef-cookbooks/openssh)
 * [openvpn](https://github.com/xhost-cookbooks/openvpn) 
 * [resolver](https://github.com/chef-cookbooks/resolver) - Configures ```/etc/resolv.conf``` via attributes.
+* [ssh-key](https://github.com/nickola/chef-ssh-keys) - Creates ```authorized_keys``` in user ```~/.ssh``` directory from a data bag (encrypted data bag supported).
 
 ## Resources
 When you write wrapper cookbooks, use following resources. The list includes both Chef's built in resources and LWRP of community/open source cookbooks.
@@ -133,6 +144,7 @@ When you write wrapper cookbooks, use following resources. The list includes bot
 * [cron](https://docs.chef.io/resource_cron.html) - Chef builtin resource.
 * [cron_d](https://github.com/chef-cookbooks/cron#cron_d) - LWRP to manage files in ```/etc/cron.d```
 * [execute](https://docs.chef.io/resource_execute.html) - Chef builtin resource.
+* [magic_shell_alias, magic_shell_environment](https://github.com/customink-webops/magic_shell#usage) - Create a command alias or shell environment variable.
 * [script](https://docs.chef.io/resource_script.html) - Chef builtin resource.
 
 ### Files/Directories
@@ -143,10 +155,13 @@ When you write wrapper cookbooks, use following resources. The list includes bot
 * [link](https://docs.chef.io/resource_link.html) - Chef builtin resource.
 * [remote_file](https://docs.chef.io/resource_remote_file.html) - Chef builtin resource.
 * [rsync_serve](https://github.com/chef-cookbooks/rsync#resourcesproviders) - rsync server module.
+* [s3_file](https://github.com/adamsb6/s3_file/#usage) - fetch files from AWS S3.
 * [template](https://docs.chef.io/resource_template.html) - Chef builtin resource.
+* [append_if_no_line, replace_or_add, delete_lines, add_to_list, delete_from_list](https://github.com/someara/line-cookbook#usage) - Edit lines in a file rather than replacing whole file.
 
 ### User Management/Authorization
 * [group](https://docs.chef.io/resource_group.html) - Chef builtin resource.
+* [user_ulimit](https://github.com/bmhatfield/chef-ulimit#usage) - [User limits](http://ss64.com/bash/ulimit.html) 
 * [user](https://docs.chef.io/resource_user.html) - Chef builtin resource, manage user.
 * [users_manage](https://github.com/chef-cookbooks/users#users_manage) - manage user using data bag search.
 * [sudo](https://github.com/chef-cookbooks/sudo#lwrp)
@@ -161,6 +176,7 @@ When you write wrapper cookbooks, use following resources. The list includes bot
 * [openssl_rsa_key](https://github.com/chef-cookbooks/openssl#openssl_rsa_key)
 * [openssl_x509](https://github.com/chef-cookbooks/openssl#openssl_x509) - Generates self-signed, PEM-formatted x509 certificates.
 * [selinux_state](https://github.com/skottler/selinux#selinux_state)
+* [simple_iptables_rule](https://github.com/rtkwlf/cookbook-simple-iptables#simple_iptables_rule-resource)
 * [ssh_known_hosts_entry](https://github.com/chef-cookbooks/ssh_known_hosts#lwrp)
 
 ### Deployment
@@ -170,6 +186,7 @@ When you write wrapper cookbooks, use following resources. The list includes bot
 * [application_git](https://github.com/poise/application_git)
 * [application_javascript](https://github.com/poise/application_javascript)
 * [application_nodejs](https://github.com/mburns/application_nodejs)
+* [application_php](https://github.com/poise/application_php)
 * [application_python](https://github.com/poise/application_python)
 * [application_ruby](https://github.com/poise/application_ruby)
 
@@ -182,14 +199,20 @@ When you write wrapper cookbooks, use following resources. The list includes bot
 * [apt_repository](https://github.com/chef-cookbooks/apt#resourcesproviders)
 * [yum_repository](https://github.com/chef-cookbooks/yum#yum_repository)
 
+### Service Management/Init System
+* [runit_service](https://github.com/hw-cookbooks/runit#resourceprovider) - Configure [runit](http://smarden.org/runit/).
+* [service](https://docs.chef.io/resource_service.html) - Chef builtin resource.
+* [supervisor_service](https://github.com/poise/supervisor#resourcesproviders) - [(Python) supervisor](http://supervisord.org/).
+
 ### Operating System Configuration
 * [hostsfile_entry](https://github.com/customink-webops/hostsfile#hostsfile-lwrp) - /etc/hosts file.
 * [mount](https://docs.chef.io/resource_mount.html) - Chef builtin resource.
+* [lvm_physical_volume](https://github.com/chef-cookbooks/lvm#lvm_physical_volume)
+* [lvm_logical_volume](https://github.com/chef-cookbooks/lvm#lvm_logical_volume)
 * [route](https://docs.chef.io/resource_route.html) - Chef builtin resource, manage system's routing table.
-* [service](https://docs.chef.io/resource_service.html) - Chef builtin resource.
 * [sysctl_param](https://github.com/svanzoest-cookbooks/sysctl/#using-lwrps) - set the kernel parameter.
-* [runit_service](https://github.com/hw-cookbooks/runit#resourceprovider) - Configure [runit](http://smarden.org/runit/).
 * [vim](https://github.com/chef-cookbooks/vim)
+* [zsh](https://github.com/chef-cookbooks/zsh)
 
 ## Chef for Windows
 List of cookbooks and resources which supports windows.
@@ -217,7 +240,7 @@ List of cookbooks and resources which supports windows.
 * [windows_auto_run](https://github.com/chef-cookbooks/windows#windows_auto_run) - Configure an software to run at login.
 
 ### Resources - Package/Software Installation
-* [chocolatey_package](https://docs.chef.io/resource_chocolatey_package.html) - Manage packages using. [Chocolatey](https://chocolatey.org/) windows package management system.
+* [chocolatey_package](https://docs.chef.io/resource_chocolatey_package.html) - Chef builtin resource. Manage packages using. [Chocolatey](https://chocolatey.org/) windows package management system.
 * [env](https://docs.chef.io/resource_env.html) - Chef builtin resource, manage environment keys in Microsoft Windows.
 * [powershell](https://github.com/chef-cookbooks/powershell)
 * [reboot](https://docs.chef.io/resource_reboot.html) - Chef builtin resource.
