@@ -66,9 +66,8 @@ See [Contribution Guidelines](#contribution-guidelines)
 * [nginx](https://github.com/miketheman/nginx)
 * [passenger_apache2](https://github.com/chef-cookbooks/passenger_apache2) - [Passenger](https://www.phusionpassenger.com/library) for Apache2.
 
-### Database Server
+### Database
 * [couchdb](https://github.com/wohali/couchdb-cookbook)
-* [database](https://github.com/chef-cookbooks/database)
 * [hadoop](https://github.com/caskdata/hadoop_cookbook) - Hadoop 2.0+.
 * [mariadb](https://github.com/sinfomicien/mariadb)
 * [mongodb](https://github.com/edelight/chef-mongodb)
@@ -129,13 +128,16 @@ See [Contribution Guidelines](#contribution-guidelines)
 
 ### Network/Security
 * [iptables](https://github.com/chef-cookbooks/iptables)
-* [nfs](https://github.com/atomic-penguin/cookbook-nfs)
 * [ntp](https://github.com/gmiranda23/ntp)
 * [openldap](https://github.com/chef-cookbooks/openldap)
 * [openssh](https://github.com/chef-cookbooks/openssh)
 * [openvpn](https://github.com/xhost-cookbooks/openvpn) 
 * [resolver](https://github.com/chef-cookbooks/resolver) - Configures ```/etc/resolv.conf``` via attributes.
 * [ssh-key](https://github.com/nickola/chef-ssh-keys) - Creates ```authorized_keys``` in user ```~/.ssh``` directory from a data bag (encrypted data bag supported).
+
+### File System/Storage
+* [ceph_cephfs](https://github.com/ceph/ceph-chef#ceph_cephfs)
+* [nfs](https://github.com/atomic-penguin/cookbook-nfs)
 
 ## Resources
 When you write wrapper cookbooks, use following resources. The list includes both Chef's built in resources and LWRP of community/open source cookbooks.
@@ -193,6 +195,10 @@ When you write wrapper cookbooks, use following resources. The list includes bot
 ### Apache HTTP Server Config
 * [php_fpm_pool](https://github.com/chef-cookbooks/php#php_fpm_pool)
 * [web_app](https://github.com/svanzoest-cookbooks/apache2#web_app) - setup Apache HTTP server v2.x virtual host.
+
+### Database Config/Management
+* [database, mysql_database, postgresql_database](https://github.com/chef-cookbooks/database#examples)
+* [flywaydb](https://github.com/dhoer/chef-flywaydb#examples)
 
 ### Packages/Package Repositories
 * [package](https://docs.chef.io/resource_package.html) - Chef builtin resource.
@@ -256,6 +262,8 @@ List of cookbooks and resources which supports windows.
 * [windows_service](https://docs.chef.io/resource_windows_service.html) - Chef builtin resource.
 * [windows_task](https://github.com/chef-cookbooks/windows#windows_task)
 
+### Resources - Application configuration
+* [sql_server_database](https://github.com/chef-cookbooks/database#examples)
 
 ## Chef handlers
 
