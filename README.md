@@ -1,11 +1,8 @@
-# Awesome Chef
+# Awesome Chef [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-> [Chef](http://getchef.com) is a systems and cloud infrastructure automation framework that makes it easy to deploy servers and applications to any physical, virtual, or cloud location, no matter the size of the infrastructure.. — [Chef](http://docs.getchef.com/)
+> A curated list of amazingly awesome open source Chef resources. [Chef](http://getchef.com) is a systems and cloud infrastructure automation framework that makes it easy to deploy servers and applications to any physical, virtual, or cloud location, no matter the size of the infrastructure.
 
---
-A curated list of amazingly awesome open source Chef resources.
-
-* [Awesome Chef](#awesome-chef)
+## Table of Contents
   * [Basics](#basics)
   * [Cookbooks](#cookbooks)
   * [Resources](#resources)
