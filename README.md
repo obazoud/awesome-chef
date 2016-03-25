@@ -274,7 +274,7 @@ List of cookbooks and resources which supports windows.
 * [Chef Users Handler](https://supermarket.getchef.com/tools/chef-handler-users) - A dead simple Chef handler to report changes in users. Can send emails using the Pony gem.
 * [Chef Zookeeper Handler](https://supermarket.getchef.com/tools/chef-handler-zookeeper) - A simple Chef report handler to send notifications to ZooKeeper about Chef runs.
 * [Chef Airbrake Handler](https://github.com/morgoth/airbrake_handler) - Chef handler for sending exceptions to Airbrake.
-* [Chef Zabbix Handler](https://github.com/TYPO3-cookbooks/zabbix-custom-checks/blob/master/templates/default/chef-client/chef-client-handler.rb) - Send chef-client statistics to zabbix using a report handler.
+* [Chef Zabbix Handler](https://github.com/TYPO3-cookbooks/zabbix-custom-checks/blob/master/templates/chef-client/chef-client-handler.rb) - Send chef-client statistics to zabbix using a report handler.
 * [Chef Campfire Handler](https://github.com/jjasghar/chef-handler-campfire) - Chef Exception & Reporting Handler for Campfire
 * [Chef Cookbook Version Handler](https://github.com/juliandunn/cookbook_versions_handler) - This cookbook installs a Chef report handler to log the cookbooks and versions run on the node as part of the Chef run.
 * [Chef Flowdock Handler](https://github.com/mmarschall/chef-handler-flowdock) - A Chef handler that collects exception and report handler data and reports it to Flowdock, a web-based team inbox and chat tool.
