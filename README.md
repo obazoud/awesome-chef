@@ -98,7 +98,7 @@ See [Contribution Guidelines](#contribution-guidelines)
 ### Service Discovery
 * [consul](https://github.com/johnbellone/consul-cookbook) - [Hashicorp Consul](https://www.consul.io/)
 * [consul-template](https://github.com/adamkrone/chef-consul-template)
-* [etcd](https://github.com/chef-cookbooks/etcd) - [etcd](https://coreos.com/etcd/) is a distributed key value store that provides a reliable way to store data across a cluster of machines. 
+* [etcd](https://github.com/chef-cookbooks/etcd) - [etcd](https://coreos.com/etcd/) is a distributed key value store that provides a reliable way to store data across a cluster of machines.
 * [zookeeper](https://github.com/SimpleFinance/chef-zookeeper) - [Apache Zookeeper](https://zookeeper.apache.org/)
 
 ### Logging/Monitoring
@@ -128,7 +128,7 @@ See [Contribution Guidelines](#contribution-guidelines)
 * [ntp](https://github.com/gmiranda23/ntp)
 * [openldap](https://github.com/chef-cookbooks/openldap)
 * [openssh](https://github.com/chef-cookbooks/openssh)
-* [openvpn](https://github.com/xhost-cookbooks/openvpn) 
+* [openvpn](https://github.com/xhost-cookbooks/openvpn)
 * [resolver](https://github.com/chef-cookbooks/resolver) - Configures ```/etc/resolv.conf``` via attributes.
 * [ssh-key](https://github.com/nickola/chef-ssh-keys) - Creates ```authorized_keys``` in user ```~/.ssh``` directory from a data bag (encrypted data bag supported).
 
@@ -160,7 +160,7 @@ When you write wrapper cookbooks, use following resources. The list includes bot
 
 ### User Management/Authorization
 * [group](https://docs.chef.io/resource_group.html) - Chef builtin resource.
-* [user_ulimit](https://github.com/bmhatfield/chef-ulimit#usage) - [User limits](http://ss64.com/bash/ulimit.html) 
+* [user_ulimit](https://github.com/bmhatfield/chef-ulimit#usage) - [User limits](http://ss64.com/bash/ulimit.html)
 * [user](https://docs.chef.io/resource_user.html) - Chef builtin resource, manage user.
 * [users_manage](https://github.com/chef-cookbooks/users#users_manage) - manage user using data bag search.
 * [sudo](https://github.com/chef-cookbooks/sudo#lwrp)
