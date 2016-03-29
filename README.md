@@ -1,6 +1,6 @@
 # Awesome Chef [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-> A curated list of amazingly awesome open source Chef resources. [Chef](http://getchef.com) is a systems and cloud infrastructure automation framework that makes it easy to deploy servers and applications to any physical, virtual, or cloud location, no matter the size of the infrastructure.
+> A curated list of amazingly awesome open source Chef resources. [Chef](http://chef.io) is a systems and cloud infrastructure automation framework that makes it easy to deploy servers and applications to any physical, virtual, or cloud location, no matter the size of the infrastructure.
 
 ## Table of Contents
   * [Basics](#basics)
@@ -29,7 +29,7 @@ See [Contribution Guidelines](#contribution-guidelines)
 
 ## Cookbooks
 
-> A cookbook is the fundamental unit of configuration and policy distribution in Chef. Each cookbook defines a scenario, such as everything needed to install and configure MySQL, and then it contains all of the components that are required to support that scenario. Chef maintains a collection of cookbooks that are important to Chef and are widely used by the Chef community. - [What is a cookbook?](https://supermarket.getchef.com/cookbooks-directory)
+> A cookbook is the fundamental unit of configuration and policy distribution in Chef. Each cookbook defines a scenario, such as everything needed to install and configure MySQL, and then it contains all of the components that are required to support that scenario. Chef maintains a collection of cookbooks that are important to Chef and are widely used by the Chef community. - [What is a cookbook?](https://supermarket.chef.io/cookbooks-directory)
 
 ### Docker
 * [docker](https://github.com/chef-cookbooks/docker)
@@ -264,15 +264,15 @@ List of cookbooks and resources which supports windows.
 
 ## Chef handlers
 
-> A handler is used to identify situations that may arise during a chef-client run, and to then instruct the chef-client how to handle these situations, should they occur. — [Handlers](https://docs.getchef.com/handlers.html)
+> A handler is used to identify situations that may arise during a chef-client run, and to then instruct the chef-client how to handle these situations, should they occur. — [Handlers](https://docs.chef.io/handlers.html)
 
-* [About Handlers](https://docs.getchef.com/handlers.html) - Official reference page
-* [Supermarket](https://supermarket.getchef.com/tools?utf8=%E2%9C%93&q=handler) - Handlers registered in [Supermarket](https://supermarket.getchef.com/).
-* [Chef Elapsed Time Handler](https://supermarket.getchef.com/tools/20-chef-elapsed-time-handler) - A chef handler that reports on per-resource elapsed times in a simple graphical form.
-* [Chef Datadog Handler](https://supermarket.getchef.com/tools/chef-handler-datadog) - Get Chef stats directly into Datadog. Add the gem as an execution and report handler to your Chef run.
+* [About Handlers](https://docs.chef.io/handlers.html) - Official reference page
+* [Supermarket](https://supermarket.chef.io/tools?q=handler) - Handlers registered in [Supermarket](https://supermarket.chef.io/).
+* [Chef Elapsed Time Handler](https://supermarket.chef.io/tools/20-chef-elapsed-time-handler) - A chef handler that reports on per-resource elapsed times in a simple graphical form.
+* [Chef Datadog Handler](https://supermarket.chef.io/tools/chef-handler-datadog) - Get Chef stats directly into Datadog. Add the gem as an execution and report handler to your Chef run.
 * [Chef SNS Handler](https://github.com/onddo/chef-handler-sns) - Chef report handler to send Amazon SNS notifications on failures or changes, includes IAM roles support.
-* [Chef Users Handler](https://supermarket.getchef.com/tools/chef-handler-users) - A dead simple Chef handler to report changes in users. Can send emails using the Pony gem.
-* [Chef Zookeeper Handler](https://supermarket.getchef.com/tools/chef-handler-zookeeper) - A simple Chef report handler to send notifications to ZooKeeper about Chef runs.
+* [Chef Users Handler](https://supermarket.chef.io/tools/chef-handler-users) - A dead simple Chef handler to report changes in users. Can send emails using the Pony gem.
+* [Chef Zookeeper Handler](https://supermarket.chef.io/tools/chef-handler-zookeeper) - A simple Chef report handler to send notifications to ZooKeeper about Chef runs.
 * [Chef Airbrake Handler](https://github.com/morgoth/airbrake_handler) - Chef handler for sending exceptions to Airbrake.
 * [Chef Zabbix Handler](https://github.com/TYPO3-cookbooks/zabbix-custom-checks/blob/master/templates/chef-client/chef-client-handler.rb) - Send chef-client statistics to zabbix using a report handler.
 * [Chef Campfire Handler](https://github.com/jjasghar/chef-handler-campfire) - Chef Exception & Reporting Handler for Campfire
