@@ -32,55 +32,55 @@ See [Contribution Guidelines](#contribution-guidelines)
 > A cookbook is the fundamental unit of configuration and policy distribution in Chef. Each cookbook defines a scenario, such as everything needed to install and configure MySQL, and then it contains all of the components that are required to support that scenario. Chef maintains a collection of cookbooks that are important to Chef and are widely used by the Chef community. - [What is a cookbook?](https://supermarket.chef.io/cookbooks-directory)
 
 ### Docker
-* [docker](https://github.com/chef-cookbooks/docker)
+* [docker](https://supermarket.chef.io/cookbooks/docker)
 
 ### Ruby
-* [chruby](https://github.com/ichilton/chef_chruby_install)
-* [rbenv](https://github.com/RiotGamesCookbooks/rbenv-cookbook) - configure [rbenv](https://github.com/rbenv/rbenv).
-* [ruby_build](https://github.com/fnichol/chef-ruby_build)
-* [rvm](https://github.com/martinisoft/chef-rvm)
-* [unicorn](https://github.com/chef-cookbooks/unicorn) - Deprecated
-* [xml::ruby](https://github.com/chef-cookbooks/xml#ruby) - Installs the nokogiri gem into Chef's Ruby environment.
+* [chruby](https://supermarket.chef.io/cookbooks/chruby_install)
+* [rbenv](https://supermarket.chef.io/cookbooks/rbenv) - configure [rbenv](https://github.com/rbenv/rbenv).
+* [ruby_build](https://supermarket.chef.io/cookbooks/ruby_build)
+* [rvm](https://supermarket.chef.io/cookbooks/rvm)
+* [unicorn](https://supermarket.chef.io/cookbooks/unicorn) - Deprecated
+* [xml::ruby](https://supermarket.chef.io/cookbooks/xml#ruby) - Installs the nokogiri gem into Chef's Ruby environment.
 
 ### Java
-* [java](https://github.com/agileorbit-cookbooks/java)
-* [maven](https://github.com/chef-cookbooks/maven)
-* [tomcat](https://github.com/chef-cookbooks/tomcat)
-* [weblogic](https://github.com/universityofderby/chef-weblogic)
+* [java](https://supermarket.chef.io/cookbooks/java)
+* [maven](https://supermarket.chef.io/cookbooks/maven)
+* [tomcat](https://supermarket.chef.io/cookbooks/tomcat)
+* [weblogic](https://supermarket.chef.io/cookbooks/weblogic)
 
 ### PHP
 * [composer](https://github.com/escapestudios-cookbooks/composer)
-* [php](https://github.com/chef-cookbooks/php)
+* [php](https://supermarket.chef.io/cookbooks/php)
 
 ### Language Runtimes
-* [erlang](https://github.com/chef-cookbooks/erlang)
-* [nodejs](https://github.com/redguide/nodejs)
-* [perl](https://github.com/chef-cookbooks/perl)
-* [python](https://github.com/poise/python)
+* [erlang](https://supermarket.chef.io/cookbooks/erlang)
+* [nodejs](https://supermarket.chef.io/cookbooks/nodejs)
+* [perl](https://supermarket.chef.io/cookbooks/perl)
+* [python](https://supermarket.chef.io/cookbooks/python)
 
 ### Web Server
-* [apache2](https://github.com/svanzoest-cookbooks/apache2) - Apache HTTP server v2.x.
-* [nginx](https://github.com/miketheman/nginx)
-* [passenger_apache2](https://github.com/chef-cookbooks/passenger_apache2) - [Passenger](https://www.phusionpassenger.com/library) for Apache2.
+* [apache2](https://supermarket.chef.io/cookbooks/apache2) - Apache HTTP server v2.x.
+* [nginx](https://supermarket.chef.io/cookbooks/nginx)
+* [passenger_apache2](https://supermarket.chef.io/cookbooks/passenger_apache2) - [Passenger](https://www.phusionpassenger.com/library) for Apache2.
 
 ### Database
-* [couchdb](https://github.com/wohali/couchdb-cookbook)
-* [hadoop](https://github.com/caskdata/hadoop_cookbook) - Hadoop 2.0+.
-* [mariadb](https://github.com/sinfomicien/mariadb)
+* [couchdb](https://supermarket.chef.io/cookbooks/couchdb)
+* [hadoop](https://supermarket.chef.io/cookbooks/hadoop) - Hadoop 2.0+.
+* [mariadb](https://supermarket.chef.io/cookbooks/mariadb)
 * [mongodb](https://github.com/edelight/chef-mongodb)
-* [mysql](https://github.com/chef-cookbooks/mysql)
-* [percona](https://github.com/phlipper/chef-percona) - [Percona XtraDB Cluster](https://www.percona.com/software/mysql-database/percona-xtradb-cluster) and other components.
-* [oracle](https://github.com/aririikonen/oracle)
-* [postgresql](https://github.com/hw-cookbooks/postgresql)
-* [redis](https://github.com/brianbianco/redisio)
-* [riak](https://github.com/basho-labs/riak-chef-cookbook) - [Riak](http://basho.com/products/)
+* [mysql](https://supermarket.chef.io/cookbooks/mysql)
+* [percona](https://supermarket.chef.io/cookbooks/percona) - [Percona XtraDB Cluster](https://www.percona.com/software/mysql-database/percona-xtradb-cluster) and other components.
+* [oracle](https://supermarket.chef.io/cookbooks/oracle)
+* [postgresql](https://supermarket.chef.io/cookbooks/postgresql)
+* [redis](https://supermarket.chef.io/cookbooks/redisio)
+* [riak](https://supermarket.chef.io/cookbooks/riak) - [Riak](http://basho.com/products/)
 
 ### Loadbalancer, Cache, Proxy and Message Queue
-* [activemq](https://github.com/chef-cookbooks/activemq) - [ActiveMQ](http://activemq.apache.org/)
-* [haproxy](https://github.com/hw-cookbooks/haproxy)
-* [memcached](https://github.com/chef-cookbooks/memcached)
-* [rabbitmq](https://github.com/jjasghar/rabbitmq)
-* [varnish](https://github.com/rackspace-cookbooks/varnish)
+* [activemq](https://supermarket.chef.io/cookbooks/activemq) - [ActiveMQ](http://activemq.apache.org/)
+* [haproxy](https://supermarket.chef.io/cookbooks/haproxy)
+* [memcached](https://supermarket.chef.io/cookbooks/memcached)
+* [rabbitmq](https://supermarket.chef.io/cookbooks/rabbitmq)
+* [varnish](https://supermarket.chef.io/cookbooks/varnish)
 
 ### Web Applications
 * [elasticsearch](https://github.com/elastic/cookbook-elasticsearch)
