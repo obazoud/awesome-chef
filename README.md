@@ -226,7 +226,7 @@ List of cookbooks and resources which supports windows.
 
 ### Application Cookbooks - Software
 * [iis](https://supermarket.chef.io/cookbooks/iis) - Microsoft Internet Information Services.
-* [sql_server](https://github.com/chef-cookbooks/sql_server) - Microsoft SQL Server 2008 R2 and Microsoft SQL Server 2012 server and client. 
+* [sql_server](https://github.com/chef-cookbooks/sql_server) - Microsoft SQL Server 2008 R2 and Microsoft SQL Server 2012 server and client.
 * [7-zip](https://github.com/sneal/7-zip)
 
 ### Resources - Files/Directories
