@@ -1,6 +1,6 @@
 # Awesome Chef [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-> A curated list of amazingly awesome open source Chef resources. [Chef](http://getchef.com) is a systems and cloud infrastructure automation framework that makes it easy to deploy servers and applications to any physical, virtual, or cloud location, no matter the size of the infrastructure.
+> A curated list of amazingly awesome open source Chef resources. [Chef](http://chef.io) is a systems and cloud infrastructure automation framework that makes it easy to deploy servers and applications to any physical, virtual, or cloud location, no matter the size of the infrastructure.
 
 ## Table of Contents
   * [Basics](#basics)
@@ -29,58 +29,58 @@ See [Contribution Guidelines](#contribution-guidelines)
 
 ## Cookbooks
 
-> A cookbook is the fundamental unit of configuration and policy distribution in Chef. Each cookbook defines a scenario, such as everything needed to install and configure MySQL, and then it contains all of the components that are required to support that scenario. Chef maintains a collection of cookbooks that are important to Chef and are widely used by the Chef community. - [What is a cookbook?](https://supermarket.getchef.com/cookbooks-directory)
+> A cookbook is the fundamental unit of configuration and policy distribution in Chef. Each cookbook defines a scenario, such as everything needed to install and configure MySQL, and then it contains all of the components that are required to support that scenario. Chef maintains a collection of cookbooks that are important to Chef and are widely used by the Chef community. - [What is a cookbook?](https://supermarket.chef.io/cookbooks-directory)
 
 ### Docker
-* [docker](https://github.com/chef-cookbooks/docker)
+* [docker](https://supermarket.chef.io/cookbooks/docker)
 
 ### Ruby
-* [chruby](https://github.com/ichilton/chef_chruby_install)
-* [rbenv](https://github.com/RiotGamesCookbooks/rbenv-cookbook) - configure [rbenv](https://github.com/rbenv/rbenv).
-* [ruby_build](https://github.com/fnichol/chef-ruby_build)
-* [rvm](https://github.com/martinisoft/chef-rvm)
-* [unicorn](https://github.com/chef-cookbooks/unicorn) - Deprecated
-* [xml::ruby](https://github.com/chef-cookbooks/xml#ruby) - Installs the nokogiri gem into Chef's Ruby environment.
+* [chruby](https://supermarket.chef.io/cookbooks/chruby_install)
+* [rbenv](https://supermarket.chef.io/cookbooks/rbenv) - configure [rbenv](https://github.com/rbenv/rbenv).
+* [ruby_build](https://supermarket.chef.io/cookbooks/ruby_build)
+* [rvm](https://supermarket.chef.io/cookbooks/rvm)
+* [unicorn](https://supermarket.chef.io/cookbooks/unicorn) - Deprecated
+* [xml::ruby](https://supermarket.chef.io/cookbooks/xml#ruby) - Installs the nokogiri gem into Chef's Ruby environment.
 
 ### Java
-* [java](https://github.com/agileorbit-cookbooks/java)
-* [maven](https://github.com/chef-cookbooks/maven)
-* [tomcat](https://github.com/chef-cookbooks/tomcat)
-* [weblogic](https://github.com/universityofderby/chef-weblogic)
+* [java](https://supermarket.chef.io/cookbooks/java)
+* [maven](https://supermarket.chef.io/cookbooks/maven)
+* [tomcat](https://supermarket.chef.io/cookbooks/tomcat)
+* [weblogic](https://supermarket.chef.io/cookbooks/weblogic)
 
 ### PHP
 * [composer](https://github.com/escapestudios-cookbooks/composer)
-* [php](https://github.com/chef-cookbooks/php)
+* [php](https://supermarket.chef.io/cookbooks/php)
 
 ### Language Runtimes
-* [erlang](https://github.com/chef-cookbooks/erlang)
-* [nodejs](https://github.com/redguide/nodejs)
-* [perl](https://github.com/chef-cookbooks/perl)
-* [python](https://github.com/poise/python)
+* [erlang](https://supermarket.chef.io/cookbooks/erlang)
+* [nodejs](https://supermarket.chef.io/cookbooks/nodejs)
+* [perl](https://supermarket.chef.io/cookbooks/perl)
+* [python](https://supermarket.chef.io/cookbooks/python)
 
 ### Web Server
-* [apache2](https://github.com/svanzoest-cookbooks/apache2) - Apache HTTP server v2.x.
-* [nginx](https://github.com/miketheman/nginx)
-* [passenger_apache2](https://github.com/chef-cookbooks/passenger_apache2) - [Passenger](https://www.phusionpassenger.com/library) for Apache2.
+* [apache2](https://supermarket.chef.io/cookbooks/apache2) - Apache HTTP server v2.x.
+* [nginx](https://supermarket.chef.io/cookbooks/nginx)
+* [passenger_apache2](https://supermarket.chef.io/cookbooks/passenger_apache2) - [Passenger](https://www.phusionpassenger.com/library) for Apache2.
 
 ### Database
-* [couchdb](https://github.com/wohali/couchdb-cookbook)
-* [hadoop](https://github.com/caskdata/hadoop_cookbook) - Hadoop 2.0+.
-* [mariadb](https://github.com/sinfomicien/mariadb)
+* [couchdb](https://supermarket.chef.io/cookbooks/couchdb)
+* [hadoop](https://supermarket.chef.io/cookbooks/hadoop) - Hadoop 2.0+.
+* [mariadb](https://supermarket.chef.io/cookbooks/mariadb)
 * [mongodb](https://github.com/edelight/chef-mongodb)
-* [mysql](https://github.com/chef-cookbooks/mysql)
-* [percona](https://github.com/phlipper/chef-percona) - [Percona XtraDB Cluster](https://www.percona.com/software/mysql-database/percona-xtradb-cluster) and other components.
-* [oracle](https://github.com/aririikonen/oracle)
-* [postgresql](https://github.com/hw-cookbooks/postgresql)
-* [redis](https://github.com/brianbianco/redisio)
-* [riak](https://github.com/basho-labs/riak-chef-cookbook) - [Riak](http://basho.com/products/)
+* [mysql](https://supermarket.chef.io/cookbooks/mysql)
+* [percona](https://supermarket.chef.io/cookbooks/percona) - [Percona XtraDB Cluster](https://www.percona.com/software/mysql-database/percona-xtradb-cluster) and other components.
+* [oracle](https://supermarket.chef.io/cookbooks/oracle)
+* [postgresql](https://supermarket.chef.io/cookbooks/postgresql)
+* [redis](https://supermarket.chef.io/cookbooks/redisio)
+* [riak](https://supermarket.chef.io/cookbooks/riak) - [Riak](http://basho.com/products/)
 
 ### Loadbalancer, Cache, Proxy and Message Queue
-* [activemq](https://github.com/chef-cookbooks/activemq) - [ActiveMQ](http://activemq.apache.org/)
-* [haproxy](https://github.com/hw-cookbooks/haproxy)
-* [memcached](https://github.com/chef-cookbooks/memcached)
-* [rabbitmq](https://github.com/jjasghar/rabbitmq)
-* [varnish](https://github.com/rackspace-cookbooks/varnish)
+* [activemq](https://supermarket.chef.io/cookbooks/activemq) - [ActiveMQ](http://activemq.apache.org/)
+* [haproxy](https://supermarket.chef.io/cookbooks/haproxy)
+* [memcached](https://supermarket.chef.io/cookbooks/memcached)
+* [rabbitmq](https://supermarket.chef.io/cookbooks/rabbitmq)
+* [varnish](https://supermarket.chef.io/cookbooks/varnish)
 
 ### Web Applications
 * [elasticsearch](https://github.com/elastic/cookbook-elasticsearch)
@@ -98,7 +98,7 @@ See [Contribution Guidelines](#contribution-guidelines)
 ### Service Discovery
 * [consul](https://github.com/johnbellone/consul-cookbook) - [Hashicorp Consul](https://www.consul.io/)
 * [consul-template](https://github.com/adamkrone/chef-consul-template)
-* [etcd](https://github.com/chef-cookbooks/etcd) - [etcd](https://coreos.com/etcd/) is a distributed key value store that provides a reliable way to store data across a cluster of machines. 
+* [etcd](https://github.com/chef-cookbooks/etcd) - [etcd](https://coreos.com/etcd/) is a distributed key value store that provides a reliable way to store data across a cluster of machines.
 * [zookeeper](https://github.com/SimpleFinance/chef-zookeeper) - [Apache Zookeeper](https://zookeeper.apache.org/)
 
 ### Logging/Monitoring
@@ -128,7 +128,7 @@ See [Contribution Guidelines](#contribution-guidelines)
 * [ntp](https://github.com/gmiranda23/ntp)
 * [openldap](https://github.com/chef-cookbooks/openldap)
 * [openssh](https://github.com/chef-cookbooks/openssh)
-* [openvpn](https://github.com/xhost-cookbooks/openvpn) 
+* [openvpn](https://github.com/xhost-cookbooks/openvpn)
 * [resolver](https://github.com/chef-cookbooks/resolver) - Configures ```/etc/resolv.conf``` via attributes.
 * [ssh-key](https://github.com/nickola/chef-ssh-keys) - Creates ```authorized_keys``` in user ```~/.ssh``` directory from a data bag (encrypted data bag supported).
 
@@ -160,7 +160,7 @@ When you write wrapper cookbooks, use following resources. The list includes bot
 
 ### User Management/Authorization
 * [group](https://docs.chef.io/resource_group.html) - Chef builtin resource.
-* [user_ulimit](https://github.com/bmhatfield/chef-ulimit#usage) - [User limits](http://ss64.com/bash/ulimit.html) 
+* [user_ulimit](https://github.com/bmhatfield/chef-ulimit#usage) - [User limits](http://ss64.com/bash/ulimit.html)
 * [user](https://docs.chef.io/resource_user.html) - Chef builtin resource, manage user.
 * [users_manage](https://github.com/chef-cookbooks/users#users_manage) - manage user using data bag search.
 * [sudo](https://github.com/chef-cookbooks/sudo#lwrp)
@@ -226,7 +226,7 @@ List of cookbooks and resources which supports windows.
 
 ### Application Cookbooks - Software
 * [iis](https://supermarket.chef.io/cookbooks/iis) - Microsoft Internet Information Services.
-* [sql_server](https://github.com/chef-cookbooks/sql_server) - Microsoft SQL Server 2008 R2 and Microsoft SQL Server 2012 server and client. 
+* [sql_server](https://github.com/chef-cookbooks/sql_server) - Microsoft SQL Server 2008 R2 and Microsoft SQL Server 2012 server and client.
 * [7-zip](https://github.com/sneal/7-zip)
 
 ### Resources - Files/Directories
@@ -264,15 +264,15 @@ List of cookbooks and resources which supports windows.
 
 ## Chef handlers
 
-> A handler is used to identify situations that may arise during a chef-client run, and to then instruct the chef-client how to handle these situations, should they occur. — [Handlers](https://docs.getchef.com/handlers.html)
+> A handler is used to identify situations that may arise during a chef-client run, and to then instruct the chef-client how to handle these situations, should they occur. — [Handlers](https://docs.chef.io/handlers.html)
 
-* [About Handlers](https://docs.getchef.com/handlers.html) - Official reference page
-* [Supermarket](https://supermarket.getchef.com/tools?utf8=%E2%9C%93&q=handler) - Handlers registered in [Supermarket](https://supermarket.getchef.com/).
-* [Chef Elapsed Time Handler](https://supermarket.getchef.com/tools/20-chef-elapsed-time-handler) - A chef handler that reports on per-resource elapsed times in a simple graphical form.
-* [Chef Datadog Handler](https://supermarket.getchef.com/tools/chef-handler-datadog) - Get Chef stats directly into Datadog. Add the gem as an execution and report handler to your Chef run.
+* [About Handlers](https://docs.chef.io/handlers.html) - Official reference page
+* [Supermarket](https://supermarket.chef.io/tools?q=handler) - Handlers registered in [Supermarket](https://supermarket.chef.io/).
+* [Chef Elapsed Time Handler](https://supermarket.chef.io/tools/20-chef-elapsed-time-handler) - A chef handler that reports on per-resource elapsed times in a simple graphical form.
+* [Chef Datadog Handler](https://supermarket.chef.io/tools/chef-handler-datadog) - Get Chef stats directly into Datadog. Add the gem as an execution and report handler to your Chef run.
 * [Chef SNS Handler](https://github.com/onddo/chef-handler-sns) - Chef report handler to send Amazon SNS notifications on failures or changes, includes IAM roles support.
-* [Chef Users Handler](https://supermarket.getchef.com/tools/chef-handler-users) - A dead simple Chef handler to report changes in users. Can send emails using the Pony gem.
-* [Chef Zookeeper Handler](https://supermarket.getchef.com/tools/chef-handler-zookeeper) - A simple Chef report handler to send notifications to ZooKeeper about Chef runs.
+* [Chef Users Handler](https://supermarket.chef.io/tools/chef-handler-users) - A dead simple Chef handler to report changes in users. Can send emails using the Pony gem.
+* [Chef Zookeeper Handler](https://supermarket.chef.io/tools/chef-handler-zookeeper) - A simple Chef report handler to send notifications to ZooKeeper about Chef runs.
 * [Chef Airbrake Handler](https://github.com/morgoth/airbrake_handler) - Chef handler for sending exceptions to Airbrake.
 * [Chef Zabbix Handler](https://github.com/TYPO3-cookbooks/zabbix-custom-checks/blob/master/templates/chef-client/chef-client-handler.rb) - Send chef-client statistics to zabbix using a report handler.
 * [Chef Campfire Handler](https://github.com/jjasghar/chef-handler-campfire) - Chef Exception & Reporting Handler for Campfire
