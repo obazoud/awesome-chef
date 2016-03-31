@@ -67,7 +67,7 @@ See [Contribution Guidelines](#contribution-guidelines)
 * [couchdb](https://supermarket.chef.io/cookbooks/couchdb)
 * [hadoop](https://supermarket.chef.io/cookbooks/hadoop) - Hadoop 2.0+.
 * [mariadb](https://supermarket.chef.io/cookbooks/mariadb)
-* [mongodb](https://github.com/edelight/chef-mongodb)
+* [mongodb](https://github.com/chef-brigade/mongodb-cookbook/)
 * [mysql](https://supermarket.chef.io/cookbooks/mysql)
 * [percona](https://supermarket.chef.io/cookbooks/percona) - [Percona XtraDB Cluster](https://www.percona.com/software/mysql-database/percona-xtradb-cluster) and other components.
 * [oracle](https://supermarket.chef.io/cookbooks/oracle)
