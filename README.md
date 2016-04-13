@@ -26,6 +26,9 @@ See [Contribution Guidelines](#contribution-guidelines)
 * [Resource](https://docs.chef.io/resources.html) - Chef resource which is a building block of a recipe.
 * [Data Bag](https://docs.chef.io/data_bags.html) - Data bag and its usage.
 
+## Tutorials
+* [A Beginner’s Guide to Chef](https://www.linode.com/docs/applications/chef/beginners-guide-chef) - A short descriptoions for key concepts of Chef
+* [Getting started with Chef](http://gettingstartedwithchef.com/) - Learn how to configure, manage and provision cloud servers with Chef by following practical examples with real world applications.
 
 ## Cookbooks
 
